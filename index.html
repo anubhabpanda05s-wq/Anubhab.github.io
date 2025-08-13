@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Anubhab Panda - Portfolio</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f8f9fa;
+        color: #333;
+    }
+    header {
+        background: linear-gradient(to right, #007bff, #00bfff);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    header h1 { font-size: 2.5em; margin: 0; }
+    header p { font-size: 1.2em; }
+    nav {
+        background: white;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+    }
+    section {
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #007bff;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        text-align: center;
+    }
+    .skill-box {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .timeline {
+        border-left: 3px solid #007bff;
+        padding-left: 20px;
+    }
+    .timeline div {
+        margin-bottom: 20px;
+    }
+    form {
+        display: grid;
+        gap: 10px;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+    }
+    button {
+        background: #007bff;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    button:hover {
+        background: #0056b3;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Anubhab Panda</h1>
+    <p>HR Professional | Data Enthusiast | Creative Thinker</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am an aspiring HR professional with strong analytical and creative skills. 
+        My work spans recruitment, data analytics, and innovative project ideas like InkBlink. 
+        I have interned at Wonton Consulting Private Limited and Top Trove Foundation, conducted 
+        research on sodium-ion batteries, and mastered tools like Power BI, Python, Excel, R Studio, and SQL.
+    </p>
+    <p><b>Vision:</b> To match professionals with the right opportunities and help businesses find talent that drives growth.</p>
+    <p><b>Mission:</b> To be a catalyst in transforming careers and businesses through strategic HR solutions.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill-box">Power BI</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">Excel</div>
+        <div class="skill-box">R Studio</div>
+        <div class="skill-box">SQL</div>
+        <div class="skill-box">Canva</div>
+        <div class="skill-box">Video Editing</div>
+        <div class="skill-box">Human Resource Management</div>
+    </div>
+</section>
+
+<section id="work">
+    <h2>Experience & Projects</h2>
+    <div class="timeline">
+        <div>
+            <h3>Wonton Consulting Private Limited</h3>
+            <p>HR Intern – Recruitment, telephonic & Google Meet interviews, job banner creation, and candidate targeting.</p>
+        </div>
+        <div>
+            <h3>Top Trove Foundation</h3>
+            <p>HR Hiring for HR, Marketing, and Fundraising interns. Managed candidate shortlisting and interviews.</p>
+        </div>
+        <div>
+            <h3>InkBlink</h3>
+            <p>Innovative print delivery service for college students to reduce stationery rush.</p>
+        </div>
+        <div>
+            <h3>Research Paper</h3>
+            <p>Sodium-ion Batteries as an Alternative to Lithium-ion Batteries – exploring sustainable and cost-effective EV solutions.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
